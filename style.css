@@ -40,6 +40,8 @@ body {
 }
 .color {
   color: rgb(73, 166, 233);
+  user-select: all;
+  cursor: pointer;
 }
 
 @media (max-width: 614px) {
