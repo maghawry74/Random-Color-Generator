@@ -10,6 +10,6 @@ button.addEventListener("click", () => {
       colorSpan.textContent = color.toUpperCase()
       container.style.backgroundColor = String(color)
       button.style.backgroundColor = color
-     document.execCommand('copy');
+     navigator.clipboard.writeText(color)
     })
 })
